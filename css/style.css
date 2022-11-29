@@ -21,6 +21,10 @@ header{
     align-items: center;
 }
 
+.bgcolor{
+    background-color: green;
+}
+
 @media (min-width: 600px) {
     body{display: flex;}
 }
