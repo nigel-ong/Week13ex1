@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM manipulation example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,22 +12,27 @@
     <header>
         <h1>Enter student's information</h1>
         <button>Change Background Color</button>
+        <script src="Scriptfolder/script.js" defer></script>
     </header>
 
     <section>
-        <label>First Name:</label>
-        <input id="firstname" type="text">
-        <label>Last Name:</label>
-        <input id="lastname" type="text">
-        <label>Program Name:</label>
-        <input id="progName" type="text">
-        <button>Submit</button>
+        <div class="name">
+            <label>First Name:</label>
+            <input id="firstname" type="text">
+            <label>Last Name:</label>
+            <input id="lastname" type="text">
+            <label>Program Name:</label>
+            <input id="progName" type="text">
+        </div>
+        <div class="button_center">
+            <button>Submit</button>
+        </div>
     </section>
 
     <section>
         <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+        <ul class="CIT">Sudents Enrolled in CIT</ul>
+        <ul class="CST">Sudents Enrolled in CST</ul>
     </section>
 
 </body>
